@@ -3,7 +3,11 @@
 using namespace std;
 
 int main() {
-    cout << "Hola Mundo!" << endl; // eliminar esta línea
+
+    string nombre;
+    cout<<"Ingresa tu nombre: "<<endl;
+    getline(cin,nombre);
+    cout << "Hola "<<nombre<< " bienvenido al Mundo!" << endl; // eliminar esta línea
 
     return 0;
 }
